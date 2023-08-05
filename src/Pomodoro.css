@@ -1,0 +1,73 @@
+
+body{
+    height: 100vh;
+    background-color: rgba(165, 42, 42, 0.901);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container{
+
+    background-color:beige !important;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+    box-shadow: 10px 10px 30px #363636;
+}
+h1{
+    margin-bottom: 2rem;
+    color: brown;
+}
+#timeControls{
+    width: 30rem;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+}
+#timeControls .controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#timeControls .controls h4{
+    width:3rem;
+}
+#timeControls button{
+    margin-bottom: 8px;
+    font-size: x-large;
+    border: none;
+    background-color: inherit;
+}
+#timeControls button:hover{
+    cursor: pointer;
+}
+#timeControls button:focus{
+    outline: none ;
+}
+#time-left{
+    border-radius: 10px;
+    font-family: Times;
+    font-size: x-large;
+    padding: 8px 4rem;
+    background-color: #666;
+    color: white;
+    margin-bottom: 2rem;
+}
+.startControls{
+    border-radius: 3px;
+    color: white;
+    border: none;
+    margin: 0 0.25rem;
+    background-color:brown;
+    padding: 8px 30px;
+}
+#start_stop:hover,#reset:hover{
+    background-color: #a52a2ad8;
+    cursor:pointer;
+}
+#start_stop:focus,#reset:focus{
+    outline: none;
+}
